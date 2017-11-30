@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Global Attributes */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+}
+
+.clear{
+  clear: both;
+}
+
+
+/* NavBar Styling */
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+
+header::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.logo{
+  float: left;
+  padding: 18px;
+}
+
+#nav{
+  float: right;
+}
+
+#nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#nav li{
+  display: inline-block;
+  margin-left: 80px;
+  padding: 20px 0 0 0;
+}
+
+#nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.item{
+  border: 2px solid #fff;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+
+#nav ul li a:hover{
+  color: #000;
+}
+
+.item:hover{
+  border: 2px solid #000;
+}
+
+/*End of Nav Bar Styling */
+
+/* Picture Showcase Styling */
+
+.imageBg{
+  background-image: url(pictures/picture02.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.imageBg:after{
+  position: absolute;
+  width: 230px;
+  left: 400;
+  bottom: 0;
+  border-bottom: 80px solid #D4D4D4;
+  border-right: 80px solid transparent;
+  display: block;
+  content: '';
+}
+
+.imageBg:before{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 300px;
+  bottom: 0;
+  right: 0px;
+  border-bottom: 80px solid #D4D4D4;
+  border-left: 80px solid transparent;
+}
+
+/* Picture Showcase Styling End */
+
+/* Header Text Styling Start */
+
+.headerText{
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.impHeaderText{
+  font-size: 68px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+.txt{
+  color: #fff;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+/* Header Text Styling End */
+
+/* Services Section Styling Start */
+
+.containerA{
+  width: 77%;
+  margin: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+
+.sectionA{
+  background: #D4D4D4;
+}
+
+.impTxt{
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+
+.black{
+  color: #000;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 15px;
+  position: relative;
+  top: 35px;
+  transition: .3s;
+}
+
+.btn:hover{
+  color: #000;
+  background: #fff;
+}
+
+/* Services Section Styling End */
+
+/* Skills Section Styling Start */
+
+.img{
+  margin-left: 180px;
+}
+
+.containerB{
+  padding: 80px;
+  text-align: center;
+  padding-bottom: 180px;
+}
+
+.btn2{
+  color: #fff;
+  background: #000;
+  border-radius: 18px;
+  padding: 15px;
+  position: relative;
+  top: 45px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn2:hover{
+  color: #000;
+  background: #fff;
+}
+
+.txt2{
+  line-height: 1.8;
+  width: 89%;
+  font-size: 21px;
+  margin: auto;
+  font-weight: bold;
+  position: relative;
+  top: 25px;
+}
+
+.textSkills{
+  margin-left: 140px;
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.left{
+  float: left;
+  position: relative;
+  left: 458px;
+}
+
+.right{
+  float: right;
+  position: relative;
+  right: 410px;
+  bottom: 28px;
+}
+
+.center{
+  position: relative;
+  right: 11px;
+}
+
+/* testing code for centering */
+/*.txtSkills{
+  width: 100%;
+  text-align: center;
+  clear: bt
+}
+
+.right{
+  float: right;
+  width: 280px;
+}
+
+.left{
+  float: left;
+  width: 280px;
+}
+
+.center{
+  display: inline-block;
+  margin: 0 auto;
+  width: 280px;
+} */
+
+/*   display: inline-block;
+  left: 30%;
+  position: relative;
+  margin-right: 200px;
+  padding: 0; */
+
+  /* End of Testing Code */
+
+/* Skills Section Styling End */
+
+/* Pictures Showcase Section Styling Start */
+
+.sectionC{
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.textOverImage{
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin: 8px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: 150px;
+  transition: 0.5s;
+}
+
+.textOverImage:hover{
+  background-size: 110%;
+}
+
+.textOverImage:after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: attr(data-text);
+  color: #000;
+  transition: .5s;
+}
+
+/* Pictures Showcase Section Styling End */
+
+/* Who we are Section Styling Start */
+
+  .sectionD{
+    background: #D4D4D4;
+    padding: 90px;
+  }
+
+  .containerD{
+    width: 90%;
+    margin: auto;
+  }
+
+  .btn3{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 15px;
+    position: relative;
+    top: 55px;
+    left: 90px;
+    transition: .3s;
+  }
+
+  .btn3:hover{
+    color: #000;
+    background: #fff;
+  }
+
+/* Who we are Section Styling Start */
+
+
+.contactSection{
+  padding: 80px;
+  text-align: center;
+}
+
+.btn4{
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+  transition: .3s;
+}
+
+.btn4:hover{
+  color: #000;
+  background: #fff;
+}
+
+.footer01{
+  padding: 80px;
+  background: #D4D4D4;
+}
+
+.container5{
+  background: #D4D4D4;
+  width: 80%;
+  margin: auto;
+}
+
+.footer02{
+  background: #000;
+  width: 100%;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+}

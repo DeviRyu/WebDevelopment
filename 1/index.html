@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jonny's Portfolio</title>
+  <meta name="viewport" content="width=device-width, intial-scale=1" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="showCaseImage">
+  <div class="container">
+
+   <!-- Navigation Bar Start -->
+   <div class="navContainer">
+     <div id="nav">
+       <ul>
+         <li><a href="#" class="active">home</a></li>
+         <li><a href="#">portfolio</a></li>
+         <li><a href="#">about</a></li>
+         <li><a href="#">contact</a></li>
+       </ul>
+     </div>
+   </div>
+
+    <!-- Header Image Start -->
+      <div class="showCaseText">
+        <div class="center">
+          <h1 class="impText">Ionut Alexandru</h1>
+          <h3 class="txt">Web Developer/Graphic Designer</h3>
+          <a href="#" class="btn">check out my work</a>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+
+
+  <section>
+    <div class="containerPortfolio">
+      <div class="container2">
+        <h1 class="impTxtPortfolio">Portfolio</h1>
+        <p class="txtPortfolio">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+      <div class="workPicturesContainer1">
+        <img  src="images/bg01.png" class="imgWork" alt="pictureWok" width="600" height="600"
+            onclick="document.getElementById('modalPictures').style.display='block'"/>
+        <img  src="images/bg01.png" class="imgWork" alt="pictureWok" width="600" height="600"
+            onclick="document.getElementById('modalPictures').style.display='block'"/>
+      </div>
+
+      <div class="workPicturesContainer2">
+        <img  src="images/bg01.png" class="imgWork" alt="pictureWok" width="600" height="600"
+            onclick="document.getElementById('modalPictures').style.display='block'"/>
+        <img  src="images/bg01.png" class="imgWork" alt="pictureWok" width="600" height="600"
+            onclick="document.getElementById('modalPictures').style.display='block'"/>
+      </div>
+
+    </div>
+
+    <!-- Modal Start -->
+
+    <div id='modalPictures' class="modal" onclick="this.style.display='none'">
+      <span class="closeBtn display-topright">X</span>
+      <div class="modal-content">
+        <img src="images/bg01.png" width="100%" />
+      </div>
+    </div>
+
+
+  </section>
+
+  <section>
+    <div class="containerAboutMe">
+      <div class="container3">
+        <h1 class="impTxtPortfolio">About Me</h1>
+        <p class="txtPortfolio">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <p class="txtPortfolio">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <p class="txtPortfolio">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="containerSocials">
+      <div class="socials">
+        <li><a href="#facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      </div>
+    </div>
+
+
+    <footer>
+      <p>&copy; Ionut Alexandru</p>
+    </footer>
+
+
+
+  </section>
+
+
+
+
+
+</body>
+
+</html>
